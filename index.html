@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" >
+ <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=-1"/>
+<!-- Scripts -->
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+ 	<script src="https://code.jquery.com/jquery-latest.js"></script>
+ 	<script src="js/script.js"></script>
+	<script src="https://code.jquery.com/jquery-latest.js"></script>
+
+	<!-- Style Sheet -->
+	<link rel="stylesheet" href="css/style.css" type="text/css"/>
+	<link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+
+	<!-- Title and Background -->
+	<title>Toxic Bomber</title>
+	<div class='stars'></div>
+	<div class='stars2'></div>
+	<div class='stars3'></div>
+ </head>
+ <header>
+	 <br>
+	 <!-- ToxicNoob Logo -->
+   <a href="https://github.com/Toxic-Noob/"><img src="img/toxicnoob_logo.png" id="logo" height="90"></a>
+	 <p style="color:rgb(0,150,255);font-family: 'Brush Script MT', 'cursive';" align="center"><font size="500"> ToxicBomber V1.0</font></p>
+ </header>
+ <body>
+	 <br>
+	 <!-- Main Body -->
+	 <div align="center">
+	 		<input type="number" id="number" placeholder= "Number (Ex : 01xxxxxxxxx)" class="inp" onKeyPress="if(this.value.length==11) return false;" onClick="cng()">
+			 <input type="number" id="amount" placeholder="Amount (Max : 500)" class="inp" onKeyPress="if(this.value+0 > 500) return false;" onClick="cng()">
+			 <br><input type="button" id="btn" value="Start Bombing" class="btn" onClick="start()">
+			 <script>click_btn()</script>
+			 <br>
+			 <br>
+			 <iframe src="" id="url"></iframe>
+	</div>
+ </body>
+ <footer>
+	<div class="fb">
+			<p> Author : <a href="https://facebook.com/ToxicNoobOfficial/">ToxicNoob</a>
+	</div>
+		<div id="visit"></div>
+ </footer>
+</html>
