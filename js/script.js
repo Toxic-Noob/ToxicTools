@@ -57,7 +57,7 @@ function start(){
 function run(){
 	var number = document.getElementById("number").value;
 	var amount = document.getElementById("amount").value;
-	var url = "http://toxicnoob.ml/data.php?number="+number+"&amount="+amount;
+	var url = "http://toxicnoob.ezyro.com/tools_data/data.php?number="+number+"&amount="+amount;
 	document.getElementById('url').src = url;
 		document.getElementById("url").setAttribute("style", "border: solid rgb(0,150,255); border-radius: ;box-shadow: 0 0 30px 0 rgb(0,150,255);");
 }
