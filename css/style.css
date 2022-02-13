@@ -90,6 +90,7 @@ a:active {
   font-family: 'Brush Script MT', cursive;
   color: white;
   font-size: 20px;
+  text-align: center;
 }
 
 @keyframes loser{
